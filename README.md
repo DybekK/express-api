@@ -140,7 +140,7 @@ Returns rsa keys based on user's email
         ```
 
 ### Get encrypted code of sample PDF
-Returns rsa keys based on user's email
+Returns Base64 code of sample PDF
 
 | URL | Method | Data Params | Headers
 | :--- | :--- | :--- | :--- | 
