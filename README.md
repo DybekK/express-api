@@ -130,7 +130,7 @@ Returns rsa keys based on user's email
         }
         ```
 -   **Error Response:**
-    -   **Code:**  403 UNAUTHORIZED
+    -   **Code:**  401 UNAUTHORIZED
     
         **Content:**  
          ```json
@@ -156,7 +156,7 @@ Returns Base64 code of sample PDF
           cYYdhrjmCQf90drA7g6cf9vVV8aejaW+67TWSREvM2tgRPlWdzWnr/kPsmkKk15iEnTQB99oREqX1xw1lx/SpQ==
         ```
 -   **Error Response:**
-    -   **Code:**  403 UNAUTHORIZED
+    -   **Code:**  401 UNAUTHORIZED
 
         **Content:**
          ```json
@@ -169,4 +169,4 @@ Returns Base64 code of sample PDF
 -  Add configuration for different .env files like .env.test or .env.local
 - Write more tests which would cover negative responses
 - Normally I use Nest.js as a backend framework but due to the type of task I decided to use express
-- I know that I should have decoded the answers in tests and check if the keys are correct with passphrase, but I'm not very familiar with encryption
+- I know that I should have decoded the results in tests and check if the keys are correct with passphrase, but I'm not very familiar with encryption
